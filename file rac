@@ -1,0 +1,45 @@
+
+
+<div id="mySidenav" >
+  <div class="sidenav">
+  <a href="https://www.facebook.com/dienmaypico/" class="button message"<span class="button-icon"><img src="img/face.png" alt="face" width="24px" height="24px"></span> <span class="button-text" >FaceBook</span></a>
+  <a href="https://www.youtube.com/@PicoJsc" class="button youtube"<span class="button-text" ><span class="button-icon"><img src="img/youtube.png" alt="youtube" width="24px" height="24px"></span><span class="button-text">YouTube</span> </span></a>
+  <a href="trangwwed/dangnhap.html" class="button gmail"<span class="button-text" ><span class="button-icon"><img src="img/gmail.png" alt="youtube" width="24px" height="24px"></span><span class="button-text">Gmail</span> </span></a>
+  <a href="trangwwed/dangnhap.html" class="button phone"<span class="button-text" ><span class="button-icon"><img src="img/gidien.png" alt="youtube" width="24px" height="24px"></span><span class="button-text">Gọi Điện</span> </span></a>
+  
+  </div>
+<!-- quảng cáo phải-->
+<div class="float-ck" style="right: 0px">
+  <div id="hide_float_right">
+  <a href="javascript:hide_float_right()">Tắt quảng cáo[X]</a></div>
+  <div id="float_content_right">
+  <!-- Start quang cao-->
+  <img src="img/cham sco khach hang.png">
+  <!-- End quang cao phải -->
+  </div>
+  </div>
+  <!-- QUẢNG CÁO GIỮA -->
+      <div id="onl" style="position: fixed; bottom: 120px; top: 80px; left: 300px; z-index: 100; display: block;">
+          <div style=" width:1000px; ">
+              <a href="javascript:un()" style="color:#F00;"> Tắt quảng cáo [X]</a>
+              <img src="img/quangcao.png" width="450" height="450">
+          </div>
+      </div>
+  <!-- KẾT THÚC QUẢNG CÁO GIỮA -->
+<script type="text/javascript">
+  function hide_float_right() {
+      var content = document.getElementById('float_content_right');
+      var hide = document.getElementById('hide_float_right');
+      if (content.style.display == "none")
+      {content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()"> Tắt quảng cáo [X]</a>'; }
+          else { content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Sản Phẩm Khuyến Mại 75%</a>';
+      }
+      }
+    function myF(){
+        onl.style.display = "block";
+        
+      }
+      function un(){
+          onl.style.display = "none";
+      }
+  </script>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="stylechitiet.css">
+    <link rel="stylesheet" href="w3schools31.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <header>
+        <img src="img/banner.webp" alt="ban ner">
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+            <li><a href="index.html"><img style="width: 150px;" src="img/loggo.jpg" alt=""></a></li>
+            <li id="adress-from"><a href="">Hà Nội <i class="fas fa-sort-down"></i></a></li> 
+            <li><input type="text" placeholder="bạn cần tìm gì..."><i class="fas fa-search"></i></li>
+            <li><a href=""></a><button><i class="fa-solid fa-cart-shopping"></i>  Giỏ Hàng</button></li>
+            <li><a href="">Lịch Sử <br> Đơn Hàng</a></li>
+            <li><a href="https://www.thegioididong.com/tin-tuc#1">24h công nghệ</a></li>
+            <li><a href="">Game APP</a></li>
+            <li><a href="">Hỏi Đáp</a></li>
+            <li><a href=""></a><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng Nhập</button></li>
+
+        </ul>
+        </div>
+    </nav>
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img/loggo.jpg" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      <section class="menubar">
+        <div class="container">
+            <div class="menu-bar-content">
+             <ul>
+               <li><a href="#"><i class="fas fa-mobile-alt"></i> Điện Thoại</a></li>
+               <li><a href=""></a><i class="fas fa-laptop"></i> laptop</li>
+               <li><a href=""><i class="fas fa-tablet-alt"></i>Tablet</a></li>
+               <li><a href=""></a><i class="fas fa-headphones-alt"></i> Headphone <i style="margin-left: 6px;" class="fas fa-sort-down"></i>
+              <!--
+                <div class="submenu">
+                <ul>
+                  <li><a href="">Phụ Kiện a</a></li>
+                  <li><a href="">Phụ Kiện b</a></li>
+                  <li><a href="">Phụ Kiện </a></li>
+                </ul>
+              </div>-->
+              </li>
+               <li><a href=""><i class="far fa-clock"></i>Đồng Hồ</a></li>
+               <li><a href=""><i class="fas fa-tablet-alt"></i>Phụ Kiện <i class="fas fa-sort-down"></i></a></li>
+               <li><a href="#"><i class="fas fa-tv"></i> PC <i class="fas fa-sort-down"></i></a></li>
+               <li><a href="">Máy Cũ Giá Rẻ</a></li>
+               <li><a href=""></a>Sim,Thẻ Cào</li>
+               <li><a href=""></a>Trả Cóp ,Điện Nước</li> 
+             </ul>   
+            </div>
+        </div>
+      </section>
+
+      <!-----------------Sản Phẩm ------------------->
+      <div class="w3-row">
+        <div class="w3-col s5">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+<div class="container">
+  <h3>Điện Thoại </h3>
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/dt1.jpg" style="width: 50%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/dt11.jpg" style="width: 50%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/dt12.jpg" style="width: 50%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/dt13.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/dt14.jpg" style="width:50%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/dt15.jpg" style="width: 50%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/dt1.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/dt11.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/dt12.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/dt13.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/dt14.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/dt15.jpg"style="width:100%" onclick="currentSlide(6)" alt="">
+    </div>
+  </div>
+</div>
+
+
+          
+        </div>
+        <div class="w3-col s6 ">
+          
+          <div><span style="font-size: 13px; background-color: crimson;width: 50px;">MAIL</span><H3>Điện Thoại Samsung A03 (T606/3GB/32GB) Đen</H3></p>
+         <div>
+          <b style="font-size: 40px;color: red;">2.300.000<sup>đ</sup></b>
+         </div>
+        </div>
+        <div class="vanchuyen">
+
+        </div>
+        <div class="btn-mua">
+              <a href="" class="btn-mua-sp"><b>Mua Ngay</b></a>
+        </div>
+        <div class="btn-them">
+          <a href="" class="btn-them-sp"><b>Thêm Vào Giỏ</b></a>
+    </div>
+    <div class="btn-muatragop1">
+      <a href="" class="btn-muatragop"><b>Mua Trả Cop</b></a>
+</div>
+      </div>
+<!--footer-->
+<footer>
+   <div class="container-duy-footer">
+    <div class="row-1">
+      <div class="col-chia3">
+        <h4>Thế Giới Di Dộng </h4>
+        <ul>
+          <li><a href="">Giới Thiệu</a></li>
+          <li><a href="">Tuyển Dụng</a></li>
+          <li><a href="">Chính Sách Bảo Mật</a></li>
+          <li><a href=""></a>Hỗ Trợ</li>
+        </ul>
+      </div>
+      <div class="col-chia3">
+        <h4>kết Nối Với Chúng Tôi</h4>
+        <ul class="social-icons">
+          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-chia3">
+        <h4>Tải ứng dụng của chúng Tôi</h4>
+        <img src="img/loggo.jpg" alt="" class="app">
+        
+      </div>
+    </div>
+   </div>
+</footer>
+      
+
+   <!--chuỗi kết nối chuẩn và thư viện icon-->
+<script src="main.js"></script>
+<script src="mainchitiet.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</body>
+</html>

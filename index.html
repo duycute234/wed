@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đỗ Đình Duy</title>
+    <link rel="stylesheet" href="style.css">
+    
+ 
+     <link rel="stylesheet" href="dangnhap.css">
+     
+</head>
+<body>
+    <header>
+        <img src="img/banner.webp" alt="ban ner">
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+            <li><a href="index.html"><img style="width: 150px;" src="img/loggo.jpg" alt=""></a></li>
+            <li id="adress-from"><a href="">Hà Nội <i class="fas fa-sort-down"></i></a></li> 
+            <li><input type="text" placeholder="bạn cần tìm gì..."><i class="fas fa-search"></i></li>
+            <li><a href=""></a><button><i class="fa-solid fa-cart-shopping"></i>  Giỏ Hàng</button></li>
+            <li><a href="">Lịch Sử <br> Đơn Hàng</a></li>
+            <li><a href="https://www.thegioididong.com/tin-tuc#1">24h công nghệ</a></li>
+            <li><a href="chitietDT1.html">Game APP</a></li>
+            <li><a href="test.html">Hỏi Đáp</a></li>
+            <li><a href=""></a><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng Nhập</button></li>
+
+        </ul>
+        </div>
+    </nav>
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img/loggo.jpg" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      <section class="menubar">
+        <div class="container">
+            <div class="menu-bar-content">
+             <ul>
+               <li><a href="#"><i class="fas fa-mobile-alt"></i> Điện Thoại</a></li>
+               <li><a href=""></a><i class="fas fa-laptop"></i> laptop</li>
+               <li><a href=""><i class="fas fa-tablet-alt"></i>Tablet</a></li>
+               <li><a href=""></a><i class="fas fa-headphones-alt"></i> Headphone <i style="margin-left: 6px;" class="fas fa-sort-down"></i>
+              <!--
+                <div class="submenu">
+                <ul>
+                  <li><a href="">Phụ Kiện a</a></li>
+                  <li><a href="">Phụ Kiện b</a></li>
+                  <li><a href="">Phụ Kiện </a></li>
+                </ul>
+              </div>-->
+              </li>
+               <li><a href=""><i class="far fa-clock"></i>Đồng Hồ</a></li>
+               <li><a href=""><i class="fas fa-tablet-alt"></i>Phụ Kiện <i class="fas fa-sort-down"></i></a></li>
+               <li><a href="#"><i class="fas fa-tv"></i> PC <i class="fas fa-sort-down"></i></a></li>
+               <li><a href="">Máy Cũ Giá Rẻ</a></li>
+               <li><a href=""></a>Sim,Thẻ Cào</li>
+               <li><a href=""></a>Trả Cóp ,Điện Nước</li> 
+             </ul>   
+            </div>
+        </div>
+      </section>
+
+<!-----------------------siline ---------------------->
+<section class="slider">
+  <div class="container">
+    <div class="slider-conten">
+      <div class="slider-conten-left">
+        <div class="slider-conten-left-top-container">
+          <div class="slider-conten-left-top">
+            <a href=""><img src="img/anh1.jpg" alt="" ></a>
+            <a href=""><img src="img/anh2.jpg" alt="" ></a>
+            <a href=""><img src="img/anh3.jpg" alt=""></a>
+            <a href=""><img src="img/anh4.jpg" alt=""></a>
+            <a href=""><img src="img/anh5.jpg" alt=""></a>
+          </div>
+          <div class="slider-conten-left-top-btn">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+
+        </div>
+        <div class="slider-conten-left-bottom">
+          <li class="active">Đồng Hồ </li>
+          <li>LapTop</li>
+          <li> RedMi 12c</li>
+          <li>LapTop</li>
+          <li>Oppo Reno85</li>
+        
+        </div>
+      </div>
+      
+      
+      <div class="slider-conten-right">
+        <li><a href=""><img src="img/anhq.jbg.webp" alt=""></a></li>
+        <li><a href=""><img src="img/tu-lanh-des-380x200.webp" alt=""></a></li>
+        <li><a href=""><img src="img/Loa-380x200.webp" alt=""></a></li>
+       <!-- <li><a href=""><img src="img/DCGD-380x200.webp" alt=""></a></li>-->
+
+
+      </div>
+      
+
+    </div>
+  </div>
+</section>
+
+<section class="banner-one">
+  <div class="container">
+    ,<img src="img/anh123.webp" alt="">
+  </div>
+
+</section>
+
+<!-------------------------slider product-->
+<section class="silder-product-one">
+  <div class="container">
+    <div class="silder-product-one-content">
+      <div class="silder-product-one-content-title">
+        <h2>Săn Sale Online Mỗi Ngày</h2>
+      </div>
+      <div class="silder-product-one-content-container">
+          <div class="silder-product-one-content-items-content">
+              <div class="silder-product-one-content-items">
+    <div class="silder-product-one-content-item">
+      <img src="img/sile1.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>OPPO A57 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">20.000.000 <sup>đ</sup></a> <span>-50%</span></li>
+        <li>10.000.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile11.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>Xiaomi Redmi A1</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">2.000.000 <sup>đ</sup></a> <span>-5%</span></li>
+        <li>1.999.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile12.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>Samsung Galaxy S21 FE 5G (6GB/128GB)</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">12.000.000 <sup>đ</sup></a> <span>-10%</span></li>
+        <li>10.880.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile13.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile14.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>Vivo Y16 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">5.000.000 <sup>đ</sup></a> <span>-18%</span></li>
+        <li>4.120.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+
+               </div>
+               <div class="silder-product-one-content-items">
+      <div class="silder-product-one-content-item">
+      <img src="img/sile15.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>OPPO A57 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">20.000.000 <sup>đ</sup></a> <span>-50%</span></li>
+        <li>10.000.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile7.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>Xiaomi Redmi A1</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">2.000.000 <sup>đ</sup></a> <span>-5%</span></li>
+        <li>1.999.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile8.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>Samsung Galaxy S21 FE 5G (6GB/128GB)</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">12.000.000 <sup>đ</sup></a> <span>-10%</span></li>
+        <li>10.880.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile9.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+    <div class="silder-product-one-content-item">
+      <img src="img/sile10.webp" alt="">
+      <div class="silder-product-one-content-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>Vivo Y16 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">5.000.000 <sup>đ</sup></a> <span>-18%</span></li>
+        <li>4.120.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+    </div>
+
+               </div>
+               <div class="silder-product-one-content-items">
+                <div class="silder-product-one-content-item">
+                  <img src="img/sile1.webp" alt="">
+                  <div class="silder-product-one-content-item-text">
+                    <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+                    <li>OPPO A57 128GB</li>
+                    <li>Online Giá Rẻ</li>
+                    <li><a href="">20.000.000 <sup>đ</sup></a> <span>-50%</span></li>
+                    <li>10.000.000<sup>đ</sup></li>
+                    <li>Quà 400.000<sub>đ</sub></li>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="silder-product-one-content-item">
+                  <img src="img/sile2.webp" alt="">
+                  <div class="silder-product-one-content-item-text">
+                    <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+                    <li>Xiaomi Redmi A1</li>
+                    <li>Online Giá Rẻ</li>
+                    <li><a href="">2.000.000 <sup>đ</sup></a> <span>-5%</span></li>
+                    <li>1.999.000<sup>đ</sup></li>
+                    <li>Quà 400.000<sub>đ</sub></li>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="silder-product-one-content-item">
+                  <img src="img/sile3.webp" alt="">
+                  <div class="silder-product-one-content-item-text">
+                    <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+                    <li>Samsung Galaxy S21 FE 5G (6GB/128GB)</li>
+                    <li>Online Giá Rẻ</li>
+                    <li><a href="">12.000.000 <sup>đ</sup></a> <span>-10%</span></li>
+                    <li>10.880.000<sup>đ</sup></li>
+                    <li>Quà 400.000<sub>đ</sub></li>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="silder-product-one-content-item">
+                  <img src="img/sile4.webp" alt="">
+                  <div class="silder-product-one-content-item-text">
+                    <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+                    <li>iPhone 14 Pro 128GB</li>
+                    <li>Online Giá Rẻ</li>
+                    <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+                    <li>25.220.000<sup>đ</sup></li>
+                    <li>Quà 400.000<sub>đ</sub></li>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+                <div class="silder-product-one-content-item">
+                  <img src="img/sile5.webp" alt="">
+                  <div class="silder-product-one-content-item-text">
+                    <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+                    <li>Vivo Y16 128GB</li>
+                    <li>Online Giá Rẻ</li>
+                    <li><a href="">5.000.000 <sup>đ</sup></a> <span>-18%</span></li>
+                    <li>4.120.000<sup>đ</sup></li>
+                    <li>Quà 400.000<sub>đ</sub></li>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </li>
+                  </div>
+                </div>
+            
+              </div>
+          </div>
+        
+       
+<!--Nút điều Hướng-->
+        <div class="silder-product-one-content-btn">
+          <i class="fa-solid fa-chevron-left fa-chevron-left-two"></i>
+          <i class="fa-solid fa-angle-right fa-angle-right-two"></i>
+        </div>
+
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+<!------------------product sản phẩm -->
+<section class="product-gallery-one">
+  <div class="container">
+    <div class="product-gallery-one-content">
+      <div class="product-gallery-one-container-title">
+        <h2>SẢN PHẨM NỔI BẬT NHẤT</h2>
+      </div>
+      <div class="product-gallery-one-content-product">
+        <!--dt1-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/dt2.html"><img src="img/dt5.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt2-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/dt1.html"><img src="img/dt1.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt3-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/dt3.html"><img src="img/dt2.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt4-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/dt4.html"><img src="img/dt3.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt5-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/dt4.html"><img src="img/dt4.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt6-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/mt1.html"><img src="img/mt1.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt7-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/mt2.html"><img src="img/mt2.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt8-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/mt3.html"><img src="img/mt3.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt9-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/mt4.html"><img src="img/mt4.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt10-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/my5.html"><img src="img/mt5.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt11-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/tv1.html"><img src="img/tv1.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt12-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/tv2.html"><img src="img/tv2.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt13-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/tv3.html"><img src="img/tv3.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt14-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/tv4.html"><img src="img/v4.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt15-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/tv5.html"><img src="img/tv5.jpg" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt16-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/k1.html"><img src="img/sile9.webp" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt17-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/k2.html"><img src="img/sile10.webp" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt18-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/k3.html"><img src="img/sile11.webp" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt19-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/k4.html"><img src="img/sile12.webp" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+        <!--dt20-->
+        <div class="product-gallery-one-content-product-item">
+          <a href="sp/k5.html"><img src="img/sile13.webp" alt=""></a>
+      <div class="product-gallery-one-content-product-item-text">
+        <li><img src="img/icon.jpg" alt="icon"><p>TRợ Giá Mùa Dịch</p></li>
+        <li>iPhone 14 Pro 128GB</li>
+        <li>Online Giá Rẻ</li>
+        <li><a href="">27.000.000 <sup>đ</sup></a> <span>-15%</span></li>
+        <li>25.220.000<sup>đ</sup></li>
+        <li>Quà 400.000<sub>đ</sub></li>
+        <li>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </li>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<div class="footer"><h3>Đỗ Đình Duy TH26.16</h3>
+</div>
+
+
+
+
+
+
+  <!--chuỗi kết nối chuẩn và thư viện icon-->
+<script src="main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>
